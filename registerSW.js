@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/bge-semester-cockpit/sw.js', { scope: '/bge-semester-cockpit/' })})}
